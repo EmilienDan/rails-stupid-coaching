@@ -1,0 +1,13 @@
+<h1> Stupid Coaching </h1>
+
+<div class="m-3 callout">
+  <p><strong><%= params[:ask] %></strong></p>
+    <p><em>- You</em></p>
+</div>
+<div class="m-3 callout">
+  <p><strong><%= @answer %></strong></p>
+    <p><em>- Coach</em></p>
+</div>
+<div class="link">
+  <p><%= link_to "Ask a new question", ask_path %></p>
+</div>
